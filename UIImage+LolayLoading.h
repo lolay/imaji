@@ -8,6 +8,6 @@
 
 @interface UIImage (LolayLoading)
 
-- (void) load;
+- (void) forceLoad;
 
 @end

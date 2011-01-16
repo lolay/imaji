@@ -6,7 +6,7 @@
 
 @implementation UIImage (LolayLoading)
 
-- (void) forceLoad {
+- (void) load {
 	const CGImageRef cgImage = [self CGImage];  
 
 	const int width = CGImageGetWidth(cgImage);

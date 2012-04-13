@@ -1,9 +1,19 @@
 //
-//  Created by Lolay, Inc.
-//  Copyright 2011 Lolay, Inc. All rights reserved.
+//  Copyright 2012 Lolay, Inc.
 //
-// This is based on the code found in a Stack Overflow post
-// http://stackoverflow.com/questions/1815476/cgimage-uiimage-lazily-loading-on-ui-thread-causes-stutter
+//  Licensed under the Apache License, Version 2.0 (the "License");
+//  you may not use this file except in compliance with the License.
+//  You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+//  Unless required by applicable law or agreed to in writing, software
+//  distributed under the License is distributed on an "AS IS" BASIS,
+//  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+//  See the License for the specific language governing permissions and
+//  limitations under the License.
+//
+
 #import <Foundation/Foundation.h>
 
 @interface UIImage (LolayLoading)
